@@ -1,4 +1,4 @@
-.login{
+.register{
     height: calc(100vh - 50px);
     display: flex;
     flex-direction: column;
@@ -8,53 +8,51 @@
         rgba(255,255,255,0.5),
         rgba(255,255,255,0.5)
     ),
-    url('https://images.pexels.com/photos/733852/pexels-photo-733852.jpeg?auto=compress&cs=tinysrgb&w=800');
+    url('https://images.pexels.com/photos/4544716/pexels-photo-4544716.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
     background-size: cover;
 }
 
-.loginTitle{
+.registerTitle{
     font-size: 50px;
 }
 
-.loginForm{
+.registerForm{
     margin-top: 20px;
     display: flex;
     flex-direction: column;
 }
 
-.loginForm > label{
+.registerForm > label{
     margin: 10px 0;
     
 }
 
-.loginInput{
+.registerInput{
     padding: 10px;
     background-color: white;
     border: none;
 }
 
-.loginButton{
+.registerButton{
     margin-top: 20px;
     cursor: pointer;
-    background-color: lightcoral;
+    background-color: teal;
     border: none;
     color: white;
     border-radius: 10px;
     padding: 10px;
 }
 
-.loginRegisterButton{
+.registerLoginButton{
     position: absolute;
     top: 60px;
     right: 20px;
-    background-color: teal;
+    background-color: lightcoral;
     cursor: pointer;
     padding: 10px;
     border: none;
     color: white;
     border-radius: 10px;
-
-
 }
 
 .link{
