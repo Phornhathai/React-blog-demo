@@ -1,4 +1,6 @@
-import Topbar from './topbar/topbar';
+import Topbar from "./topbar/Topbar";
+import './style/global.css'
+
 
 export default function App() {
   return (
