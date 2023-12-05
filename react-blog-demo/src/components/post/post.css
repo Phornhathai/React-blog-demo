@@ -2,26 +2,26 @@
 
 .post {
     display: flex;
-    flex: 7;
+    flex: 9;
     flex-wrap: wrap;
-    width: 385px;
-    margin: 20px 25px 40px 25px;
+    margin: 30px 0;
     justify-content: center;
 }
 
 .postItem{
-    margin: 10px 40px;
+    margin: 10px 50px;
+    width: 300px;
 }
 .postImg {
-    width: 385px;
-    height: 280px;
+    width: 285px;
+    height: 180px;
     object-fit: cover;
     border-radius: 7px;
-    margin: 20px 0;
+    margin: 10px 30px;
 }
 
 .postInfo {
-    width: 385px;
+    width: 350px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -55,7 +55,7 @@
 }
 
 .postDesc {
-    width: 385px;
+    width: 350px;
     font-family: 'Varela Round', sans-serif;
     font-size: 14px;
     color: #444;

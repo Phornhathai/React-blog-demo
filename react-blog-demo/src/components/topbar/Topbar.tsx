@@ -24,10 +24,10 @@ export default function topbar() {
             <Link className="link" to="/">HOME</Link>
           </li>
           <li className="topListItem">
-            <Link className="link" to="/">ABOUT</Link>
+            <Link className="link" to="/about">ABOUT</Link>
           </li>
           <li className="topListItem">
-            <Link className="link" to="/">CONTACT</Link>
+            <Link className="link" to="/contact">CONTACT</Link>
           </li>
           <li className="topListItem">
             <Link className="link" to="/write">WRITE</Link>
@@ -40,11 +40,15 @@ export default function topbar() {
       <div className="topRight">
         {
           user ? (
-            <img className="topImg" src="https://images.pexels.com/photos/19225614/pexels-photo-19225614.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="profile" />
+            <>
+              <Link className="link" to="/settings">
+                <img className="topImg" src="https://images.pexels.com/photos/19225614/pexels-photo-19225614.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="profile" />
+              </Link>
+            </>
           ) : (
             <ul className="topList">
               <li className="topListItem">
-                <Link className="link" to="/login">Login</Link>
+
               </li>
               <li className="topListItem">
                 <Link className="link" to="/register">Register</Link>
