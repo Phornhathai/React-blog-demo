@@ -42,7 +42,7 @@
     height: 70px;
     border-radius: 20px;
     object-fit: cover;
-
+    margin-left: 10px;
 }
 
 .settingPPIcon{
@@ -61,11 +61,12 @@
 .settingForm > label {
     font-size: 20px;
     margin-top: 20px;
+    color: black;
 }
 
 .settingForm > input{
     color: gray;
-    margin: 10px 0;
+    margin: 10px 10px;
     height: 30px;
     border: none;
     border-bottom: 1px solid lightgray;

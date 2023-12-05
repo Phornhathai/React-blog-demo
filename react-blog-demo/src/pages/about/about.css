@@ -10,7 +10,7 @@
     height: 80vh;
 }
 .aboutHeader {
-    margin: 40px 200px;
+    margin: 40px 100px;
     flex: 1;
 }
 
@@ -21,19 +21,31 @@ h1 {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    margin: 0 30px;
 }
 
 
-p {
-    color: #505050;
+.aboutHeader > p {
+    color: black;
     font-family: 'Varela', sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: 30px;
-    margin: 20px 10px;
+    margin: 20px 0 20px 0;
     width: 450px;
-    
+
+}
+
+.aboutDetail > p{
+    color: black;
+    font-family: 'Varela', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 20px 0 20px 0;
+    width: 450px;
 }
 
 .aboutImg {
